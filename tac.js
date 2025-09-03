@@ -52,12 +52,15 @@ const showWinner=(winner)=>{
     msgContainer.classList.remove("hide");
     nsgContainer.classList.add("hidee");
     disableBoxes();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 const noWinner=()=>{
     nsg.innerText=`Game Tied! No Winner`;
     nsgContainer.classList.remove("hidee");
     msgContainer.classList.add("hide");
     disableBoxes(); 
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    
 }
 const checkWinner = () => {
     for (let pattern of winPatterns)
