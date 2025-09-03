@@ -22,10 +22,10 @@ body {
 	gap: 1.5vmin;
 }
 h1{
-	color:#006DAA;
+	color: #006DAA;
 	text-shadow: 0 0 1rem rgba(0,0,0,0.5);
 	background-color:#e76f51;
-	border-radius: 1rem;
+	border-radius: 5rem;
 	border:none;
 	height: 15vmin;
 	text-align:center;
@@ -36,6 +36,8 @@ h1{
 	display: flex;
 	flex-direction: column;
 	gap:4rem;
+	box-sizing: border-box;
+	font-family: 'Arial', sans-serif;
 }
 .box {
 	height: 18vmin;
@@ -50,7 +52,7 @@ h1{
 #reset-btn {
 	padding: 1rem;
 	font-size: 1.25rem;
-	background-color: #191913;
+	background-color: #006DAA;
 	color: white;
 	border-radius: 1rem;
 	border: none;
@@ -58,7 +60,7 @@ h1{
 #new-btn {
 	padding: 1rem;
 	font-size: 1.25rem;
-	background-color: #191913;
+	background-color: #006DAA;
 	color: white;
 	border-radius: 1rem;
 	border: none;
@@ -66,6 +68,9 @@ h1{
 #msg {
 	color: bisque;
 	font-size: 6vmin;
+	box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+	background-color:#e76f51;
+	border-radius:1rem ;
 }
 .msg-container {
 	height: 80vmin;
@@ -92,4 +97,10 @@ h1{
 }
 .hidee {
 	display: none;
+}
+footer{
+	background-color: #006DAA;
+	color: white;
+	padding: 1rem;
+	text-align: center;
 }
